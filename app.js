@@ -1,8 +1,5 @@
 console.log("Hello World!");
 
-let backgroundAudio = document.querySelector(".audio");
-backgroundAudio.play();
-
 const readMoreButtonOne = document.querySelector(".first-button");
 readMoreButtonOne.addEventListener("mouseover", function () {
   readMoreButtonOne.style.backgroundColor = "#fffff0";
